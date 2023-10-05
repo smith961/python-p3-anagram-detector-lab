@@ -11,3 +11,7 @@ class Anagram:
             if sorted(letter.lower()) == self.sorted_word:
                 anagrams.append(letter)
         return anagrams
+    
+    listen = Anagram("listen")
+
+    listen.match(['enlist', 'google','inlets','banana'])
